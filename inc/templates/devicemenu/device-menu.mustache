@@ -1,0 +1,67 @@
+<div id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-head">
+                <img id="go_clockin" class="clickable center-image nav-logo" src="./inc/images/logo-v1.7.png">
+            </li>
+            <li class="sidebar-brand">
+                <a id="go_clockin" class="white-text text-darken-1 nav-account">
+                    <small>{{email}}</small>
+                </a>
+            </li>
+            <li>
+                <a id="settings" class="white-text text-darken-1 sidebar-active">Devices</a>
+                <a id="settings" class="white-text text-darken-1">Settings</a>
+                <a id="logout" class="white-text text-darken-1">Logout</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- /#sidebar-wrapper -->
+    <nav class="indigo lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" id="menu-toggle" class="button-collapse"><i class="material-icons sm white-text">menu</i></a>
+            <a id="logo-container" class="brand-logo white-text center flow-text"><span id="survey_title_header">Devices</span></a>
+        </div>
+    
+        <div id="landing-loader" class="progress light-blue landing-loader">
+            <div class="indeterminate indigo darken-2"></div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="">
+        <div class="flow-text">
+            Available devices ...
+        </div>
+
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+          </ul>
+    </div>
+    <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- Modals -->
+<div id="logout_modal" class="modal bottom-sheet">
+    <div class="modal-content">
+        <p>You will be logged out from Geo Intel. Do you want to proceed?</p>
+    </div>
+    <div class="modal-footer">
+        <a id="logout_proceed" class="modal-action modal-close waves-effect waves-green btn-flat pull-left blue-text">Proceed</a>
+        <a class="modal-action modal-close waves-effect waves-red btn-flat">No</a>
+    </div>
+</div>
